@@ -1,0 +1,13 @@
+alias -g P='| peco'
+alias -g G='| grep'
+alias -g X='| xargs'
+
+alias ls='ls -G'
+alias ll='ls -ahlG'
+alias g='git'
+alias ss='git status'
+alias r='bundle exec rails'
+alias rs='bundle exec rails s -b 0.0.0.0'
+alias h='history 1000'
+alias rake='noglob bundle exec rake'
+alias git='noglob git'

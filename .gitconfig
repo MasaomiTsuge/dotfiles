@@ -1,0 +1,23 @@
+[alias]
+	ss = status
+	co = checkout
+	cob = checkout -b
+	sh = stash
+	b = branch -vv
+	ba = branch -a
+	d = diff
+	dc = diff --cached
+        f = fetch -p
+        l = log
+        r = rebase
+
+[user]
+	name = mtsuge
+	email = masaomi.tsuge@luxiar.com
+
+[core]
+	editor = vi
+	whitespace = cr-at-eol
+
+[push]
+	default = current
