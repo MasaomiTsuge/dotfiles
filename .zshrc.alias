@@ -6,8 +6,21 @@ alias ls='ls -G'
 alias ll='ls -ahlG'
 alias g='git'
 alias ss='git status'
+alias sss='git status'
 alias r='bundle exec rails'
 alias rs='bundle exec rails s -b 0.0.0.0'
 alias h='history 1000'
 alias rake='noglob bundle exec rake'
 alias git='noglob git'
+alias frspec='rspec --only-failures'
+alias ps='ps aux P'
+
+alias ssh_griffon_ladder='ssh mtsuge@210.140.87.69'
+alias ssh_griffon_dev2='ssh griffon@52.192.209.207'
+alias ssh_griffon_dev3='ssh griffon@52.192.205.205'
+alias ssh_griffon_dev4='ssh griffon@52.192.230.62'
+alias ssh_griffon_dev5='ssh griffon@52.192.26.66'
+
+function prism-aws() {
+  command ssh -i /Users/MasaomiTsuge/work/upft/prism/aws/developer.pem ec2-user@$1
+}
