@@ -1,22 +1,26 @@
 [alias]
 	ss = status
+	sss = status
 	co = checkout
 	cob = checkout -b
+	c = commit
+	ca = commit --amend
 	sh = stash
 	b = branch -vv
 	ba = branch -a
 	d = diff
 	dc = diff --cached
-        f = fetch -p
-        l = log
-        r = rebase
+	f = fetch -p
+	l = log
+	r = rebase
+	rc = rebase --continue
 
 [user]
 	name = mtsuge
 	email = masaomi.tsuge@luxiar.com
 
 [core]
-	editor = vi
+	editor = vim
 	whitespace = cr-at-eol
 
 [push]
